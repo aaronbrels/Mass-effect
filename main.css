@@ -1,0 +1,30 @@
+.background-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.background-image::before {
+    content: ""; 
+    position: absolute;
+    top: 0px;
+    right: 0px;  
+    bottom: 0px;
+    left: 0px;
+    background-image: url("./images/mass.jpg");
+    background-size: cover;
+    background-position: top center;
+    opacity: 0.75;
+}
+
+
+
+
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
