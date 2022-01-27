@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 .background-image {
     display: flex;
     justify-content: center;
@@ -16,15 +20,24 @@
     background-size: cover;
     background-position: top center;
     opacity: 0.75;
+   
 }
 
 
-
+.info-box {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 40px;
+    border: blue;
+    border-style: solid;
+}
 
 
 footer {
     background-color: black;
-    color: white;
+    /* color: white; */
     text-align: center;
     padding: 40px;
+  
 }
