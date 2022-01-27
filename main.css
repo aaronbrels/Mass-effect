@@ -1,3 +1,9 @@
+/* * {
+   box-sizing: border-box;
+   margin: 0;   
+   padding: 0; 
+} */
+
 body {
     margin: 0;
 }
@@ -19,7 +25,7 @@ body {
     background-image: url("./images/mass.jpg");
     background-size: cover;
     background-position: top center;
-    opacity: 0.75;
+    opacity: 0.50;
    
 }
 
@@ -31,6 +37,30 @@ body {
     padding: 40px;
     border: blue;
     border-style: solid;
+    
+}
+
+/* .navbar {
+    position: relative;
+    display: block;
+} */
+
+
+
+li {
+    position: relative;
+    display: block;  
+    font-weight: bold;
+}
+
+
+p {
+    position: relative;
+    text-align: center;
+    display: block;
+    /* font-weight: bold; */
+    font-size: 8rem;
+    
 }
 
 
